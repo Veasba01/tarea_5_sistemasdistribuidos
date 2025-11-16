@@ -7,6 +7,6 @@ import './assets/css/skeleton.css';
 
 const app = createApp(App);
   
-app.config.globalProperties.url = 'https://tarea-5-sistemasdistribuidos.netlify.app/';
+app.config.globalProperties.url = 'https://tarea-5-sistemasdistribuidos.netlify.app';
 
 app.use(router).mount("#app");
